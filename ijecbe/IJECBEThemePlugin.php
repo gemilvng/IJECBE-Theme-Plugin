@@ -3,7 +3,9 @@
 /**
  * @file plugins/themes/ijecbe/IJECBEThemePlugin.php
  *
- * Copyright (c) 2025 Gemilang Bagas Ramadhani
+ * Copyright (c) 2014-2024 Simon Fraser University
+ * Copyright (c) 2003-2024 John Willinsky
+ * Modified by Gemilang B. Ramadhani (2025)
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class IJECBEThemePlugin
@@ -170,16 +172,20 @@ class IJECBEThemePlugin extends ThemePlugin {
 	 * Get the display name of this plugin
 	 * @return string
 	 */
+	// Changing from plugins.themes.bootstrap3.name to plugins.themes.ijecbe.name
+	// See ijecbe/locale/en/locale.po for the reference
 	function getDisplayName() {
-		return __('plugins.themes.bootstrap3.name');
+		return __('plugins.themes.ijecbe.name');
 	}
 
 	/**
 	 * Get the description of this plugin
 	 * @return string
 	 */
+	// Changing from plugins.themes.bootstrap3.description to plugins.themes.ijecbe.description
+	// See ijecbe/locale/en/locale.po for the reference
 	function getDescription() {
-		return __('plugins.themes.bootstrap3.description');
+		return __('plugins.themes.ijecbe.description');
 	}
 }
 

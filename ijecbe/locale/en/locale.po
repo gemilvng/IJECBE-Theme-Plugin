@@ -11,11 +11,11 @@ msgstr ""
 "PO-Revision-Date: 2020-02-18T19:18:25+00:00\n"
 "Language: \n"
 
-msgid "plugins.themes.bootstrap3.name"
-msgstr "Bootstrap 3 Base Theme"
+msgid "plugins.themes.ijecbe.name"
+msgstr "IJECBE Theme"
 
-msgid "plugins.themes.bootstrap3.description"
-msgstr "A starter Bootstrap 3 theme for the reader frontend."
+msgid "plugins.themes.ijecbe.description"
+msgstr "A Theme Plugin for International Journal of Electrical, Computer and Biomedical Enginnering. Based on Bootstrap3 Theme."
 
 msgid "plugins.themes.bootstrap3.accessible_menu.label"
 msgstr "Quick jump to page content"
