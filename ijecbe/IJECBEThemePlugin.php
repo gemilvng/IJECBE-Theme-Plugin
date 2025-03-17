@@ -1,17 +1,17 @@
 <?php
 
 /**
- * @file plugins/themes/bootstrap3/BootstrapThreeThemePlugin.php
+ * @file plugins/themes/ijecbe/IJECBEThemePlugin.php
  *
- * Copyright (c) 2014-2024 Simon Fraser University
- * Copyright (c) 2003-2024 John Willinsky
+ * Copyright (c) 2025 Gemilang Bagas Ramadhani
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
- * @class BootstrapThreeThemePlugin
+ * @class IJECBEThemePlugin
  * @brief Default theme
  */
 
-namespace APP\plugins\themes\bootstrap3;
+// Renaming the namespace from APP\plugins\themes\boostrap3 to APP\plugins\themes\ijecbe
+namespace APP\plugins\themes\ijecbe;
 
 use APP\core\Application;
 use APP\i18n\AppLocale;
@@ -19,7 +19,8 @@ use PKP\config\Config;
 use PKP\facades\Locale;
 use PKP\plugins\ThemePlugin;
 
-class BootstrapThreeThemePlugin extends ThemePlugin {
+// Renaming the class from BootstrapThreeThemePlugin to IJECBEThemePlugin
+class IJECBEThemePlugin extends ThemePlugin {
 	/**
 	 * Initialize the theme
 	 *
@@ -182,6 +183,7 @@ class BootstrapThreeThemePlugin extends ThemePlugin {
 	}
 }
 
+// Editing the class alias according to the new class name
 if (!PKP_STRICT_MODE) {
-    class_alias('\APP\plugins\themes\bootstrap3\BootstrapThreeThemePlugin', '\BootstrapThreeThemePlugin');
+    class_alias('\APP\plugins\themes\ijecbe\IJECBEThemePlugin', '\IJECBEThemePlugin');
 }
